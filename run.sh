@@ -9,4 +9,10 @@ export ECS_S3_BUCKET="test1"
 
 # Build and run with Maven
 mvn clean package
-java -jar target/ecs-get-acl-1.0-SNAPSHOT.jar
+
+# Check for resume arguments
+if [ "$1" == "--resume" ]; then
+    java -jar target/ecs-get-acl-1.0-SNAPSHOT.jar --resume "$@"
+else
+    java -jar target/ecs-get-acl-1.0-SNAPSHOT.jar "$@"
+fi
