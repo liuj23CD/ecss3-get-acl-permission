@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ECS S3 ACL Reader
 
 This Java program reads and displays the ACL (Access Control List) for an S3 bucket and all objects within it.
@@ -54,3 +55,6 @@ The program will display:
 ## Dependencies
 
 - AWS SDK for Java S3 (com.amazonaws:aws-java-sdk-s3)
+=======
+# ecss3-get-acl-permission
+>>>>>>> 7782b8d4037266c41852e6c682dd5fbe86215177
